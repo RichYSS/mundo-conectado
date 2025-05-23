@@ -608,11 +608,15 @@ footer {
 
 /* General */
 
-@media (max-width: 768px) {
+@media (max-width: 1700px) {
   .hero {
     width: 100%;
     height: 200px;
     overflow: hidden;
+  }
+
+  .hero .carousel-container .carousel-slide img {
+    width: 100%;
   }
 
   #menu-btn {
